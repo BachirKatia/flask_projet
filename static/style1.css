@@ -1,0 +1,43 @@
+.bodyap{  
+	background-image: url("campus.png");
+    
+    
+  
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;  
+}
+.h11{  
+	font-size:90px;
+	font-family:math;
+} 
+.menu-bar a{ 
+  text-decoration:none; 
+  color:black;
+} 
+.container{
+	position:absolute;
+	top:60%;
+    left:50%;
+	transform:translate(-50%,-50%);
+	width: 600px;
+	padding:20px;
+	background:#fff;
+	box-sizing:border-box;
+	border-radius:10px;
+	box-shadow: 0 15px 50px rgba(0,0,0,.2);
+}
+.menu-bar p {
+	height:40px;
+	font-size:50px;
+}
+.menu-bar a:hover {
+	display:block;
+	background-image:url("/static/background.JPG"); 
+ 
+}
+ a{
+	 text-decoration: none;
+	 color: black;
+ }

@@ -1,0 +1,203 @@
+insert into formation VALUES(1,'JAVA','Developpement mobile' ,
+'Langage de programmation orienté objet . découvrir les possibilités qu’offre la programmation en Java !  ',
+'Chapitre 01 : Les bases du langage Java 
+             - Les données
+             - Les opérateurs
+             - Les structures de contrôle
+             - Mots clés 
+ Chapitre 02 : Concepts de base de la programmation orientée objet
+             - Les classes 
+             - Les méthodes
+             - Les constructeurs
+             - Le concept de l’héritage	
+             - Les classes abstraites, les interfaces, le polymorphisme
+ Chapitre 03 : Spécificités du langage 
+ Chapitre 04 : Utilisez quelques principes de programmation avancés en Java
+    * Ecrivez votre premier code * 
+
+
+');
+
+insert into formation VALUES(2,'PYTHON','Desktop Developpement' 
+'Découvrez comment coder avec Python l’un des langages de programmation les plus utilisés.',
+'Chapitre 01 : les bases de python
+	       - Intro au python
+	       - Premier pas avec l’interpréteur de commandes python .
+	       - Les variables , Les structures conditionnelles, Les boucles.
+	       - Les fonctions , Les modules ,Les exceptions.
+ Chapitre 02 : La Programmation Orientée Objet côté utilisateur.
+	        - les chaînes de caractères
+	        - Les listes et tuples,Les dictionnaires.
+	        - Les fichiers
+ Chapitre 03 : La Programmation Orientée Objet côté développeur.
+	        - Les classes ,Les propriétés, l’encapsulation
+	        - Les méthodes spéciales
+	        - Héritage et polymorphisme
+	        - Notion de Conception Orientée Objet
+	        - Les décorateurs
+ Chapitre 04 : Les merveilles de la bibliothèque standard
+	        - Les expressions régulières ,Le temps,Gestion des mots de passe
+	        - Des interfaces graphiques avec Tkinter
+');
+
+insert into formation VALUES(3,'FLUTTER','Developpement mobile' ,
+'Découvrez comment créer de belles applications avec Flutter un framework open source de Google . ',
+'Chapitre 01 : Introduction à Flutter 
+ Chapitre 02 : Les bases de Dart pour Flutter
+ Chapitre 03 : Introduction aux widgets
+ Chapitre 04 : Widgets de layout
+ Chapitre 05 : Introduction à Material
+ Chapitre 06 : Stateless, Stateful, Card, Ink et InkWell
+ Chapitre 07 : Widgets relatifs aux listes
+ Chapitre 08 : Date, BottomNavigationBar et cycle des widgets
+ Chapitre 09 : Approfondissement sur le fonctionnement de flutter
+ Chapitre 10 : La navigation
+ Chapitre 11 : Dialog, SnackBar, Drawer et Tabs
+ Chapitre 12 : Provider et gestion d’état
+ Chapitre 13 : Utilisation du protocole HTTP
+ Chapitre 14 : Les formulaires
+ Chapitre 15 : Animations
+ Chapitre 16 : Interaction avec le hardware
+ Chapitre 17 : Utilisation de Google Maps
+ Chapitre 18 : Publication d’une application sur le Google Store
+ Chapitre 19 : Authentification avec JWT
+ 
+')   ;
+
+
+
+insert into formation VALUES(4,'SWIFT','Developpement mobile' ,
+'Vous apprendrez dans cette formation à développer des applications Swift en environnement MacOS',
+'Chapitre 01 : Introduction a Swift
+ Chapitre 02 : XCode l’environnement de développement
+ Chapitre 03 : Mise en place de l’environnement de développement et premier exercice avec XCode
+                  et Swift
+ Chapitre 04 : Les bases du langage Swift
+ Chapitre 05 : Réalisation de plusieurs applications sur le langage et ses basiques.
+ Chapitre 06 : La bibliothèque Swift
+ Chapitre 07 : Mise en œuvre des protocoles Comparable et Equatable.
+ Chapitre 08 : Concepts avancés en Swift
+ Chapitre 09 : Mise en œuvre de la généricité et des extensions.
+ Chapitre 10 : Interaction Swift et Objective-C
+
+
+ 
+')   ;
+insert into formation VALUES(5,'ANGULAR','Developpement Web' ,
+'Decouvrez comment créer des applications web dynamiques complètesavec ce framework',
+'
+ Chapitre 01 : Introduction à la formation Angular
+ Chapitre 02 : Premier pas : comprendre la structure du framework
+ Chapitre 03 : Composants, templates et liaison de données (databinding)
+ Chapitre 04 : Directives et pipes
+ Chapitre 05 : Services et injection de dépendances
+ Chapitre 06 : Formulaires
+ Chapitre 07 : Les Observables et la bibliothèque RxJS
+ Chapitre 08 : Routing et navigation
+ Chapitre 09 : Tests
+ Chapitre 10 : Progressive Web Apps, Service Workers, Schematics : nouveautés Angular et concepts avancés
+
+ 
+')   ;
+insert into formation VALUES(6,'Vue.Js','Developpement Web' ,
+' l’un des frameworks les plus populaires pour construire des applications web progressives.',
+'Chapitre 01 : Introduction à la formation vue.js
+
+ Chapitre 02 : Utilisation simple de vue
+
+ Chapitre 03 : Le templating
+
+ Chapitre 04 : Les composants
+ 
+ Chapitre 05 : Routing avec vue-router.
+
+ Chapitre 06 : Bus d’événements avec vuex
+
+ Chapitre 07 : Ajax avec axios.
+
+ Chapitre 08 : Vue dans une stack JS moderne
+
+ 
+
+ 
+')   ;
+insert into formation VALUES(7,'HTML-CSS-JS','Developpement Web' ,
+'Démarrez le développement web en apprenant à créer un site web avec HTML, CSS et JavaScript. ',
+'                       PARTIE 01 : HTML
+Chapitre 01 : Les bases d’un site web
+Chapitre 02 : Le HTML – généralités
+Chapitre 03 : La syntaxe HTML : balises, éléments et attributs
+Chapitre 04 : Doctype, html, body : structure d’un document valide
+Chapitre 05 : Les éléments de structuration du contenu 
+Chapitre 06 : Les éléments de « mise en forme » de texte 
+Chapitre 07 : Les éléments de liste
+Chapitre 08 : Ajouter des images avec la balise <Img>
+Chapitre 09 : Les tableaux HTML
+Chapitre 10 : Les formulaires
+                        PARTIE 02 : CSS
+Chapitre 01 : introduction et notions de base
+Chapitre 03 : Syntaxe CSS
+Chapitre 04 : Généalogie et différents types de Sélecteurs
+Chapitre 05 : Couleurs et unités
+Chapitre 06 : Propriétés de typographie, polices et Puces
+Chapitre 07 : Bordures et arrières plans
+Chapitre 08 : Dimensions, margin et padding
+Chapitre 09 : Positionnement CSS
+Chapitre 10 : Propriété display.
+                       PARTIE 03 : JavaScript
+Chapitre 01 : les bases de JS
+Chapitre 02 : modeler vos pages web
+Chapitre 03 : les objets conception et utilisation    
+Chapitre 04 : l’échange de données 
+Chapitre 05 : le débogage de votre code 
+   *La création d’un site web complet* 
+
+');
+
+
+insert into formation VALUES(8,'REACT','Developpement Web' ,
+'l’une des bibliothèques JavaScript les plus populaires pour construire des interfaces web ',
+'
+ Chapitre 01 : Initiez-vous aux principes de React
+
+ Chapitre 02 : Créez votre première application complète avec Create React App
+
+ Chapitre 03 : Stockez et récupérez des données avec le state et les effets
+
+ Chapitre 04 : Incorporez des données dans une application React avec les hooks
+
+ Chapitre 05 : Testez une application React avec Jest et React Testing Library
+')   ;
+insert into formation VALUES(9,'C#','Desktop Developpement' ,
+'langage de programmation orientée objet, dérivé de C et de C++ et ressemblant au langage Java ',
+'
+  Chapitre 01 : Introduction à la plateforme de développement .NET Core
+
+  Chapitre 02 : Les bases de C# 
+
+  Chapitre 03 : La conception objet
+
+  Chapitre 04 : Programmation orientée objet en C#
+
+  Chapitre 05 : Les classes incontournables du framework
+  
+  Chapitre 06 : Déboguez vos applications C#
+ 
+  Chapitre 07 : Testez votre application C#
+
+')   ;
+insert into formation VALUES(10,'GUI','Desktop Developpement' ,
+'Les GUI sont des interfaces graphiques leur but est de restituer le code afin de faciliter le travail',
+'
+  Chapitre 01 : Introduction
+
+ Chapitre 02 : Modele de conception Graphique
+ 
+ Chapitre 03 : Composants d’interface graphique  
+
+ Chapitre 04 : Gestion des evenements 
+
+       *Création d’une application GUI*
+
+
+')   ;

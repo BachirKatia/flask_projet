@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block style %} 
+
+   <link rel="stylesheet" href="/static/details.css">
+
+{% endblock %}
+        
+{% block content %}
+<div class="containerK">
+    <div class="descriptionK">
+         
+        <h1 class="titre"> <span> Le Programme De Notre Formation en {{formations.titredb}}:</span></h1>
+        <br> 
+        <div class="descK">
+                <div class="photoK">
+                    <img src="/static/bdd/{{formations.file_name}}" alt="" width="150px" >
+                </div>
+        
+                  <pre> {{formations.desc_longdb}}</pre>
+
+                  <div class="btn-inscription">
+                    <a href="{{url_for('inscrire',formation_titre=formations.titredb)}}" > <i> S'inscrire </i> </a> 
+                </div>
+        </div>
+          
+
+          
+    </div>
+</div>
+    
+    
+{% endblock %}
+   
+

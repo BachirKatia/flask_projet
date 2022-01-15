@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block style %} 
+
+   <link rel="stylesheet" href="/static/avis.css">
+
+{% endblock %}
+{% block content %}
+   <main>
+        <!-- Conteneur principal de tout le diaporama -->
+        <div class="diapo">
+            <h1>Votre Avis Nous Intéresse </h1>
+            <!-- Conteneur des "diapos" -->
+            <div class="elements"> 
+             <!-- Une boucle pour rajouter des commentaires-->
+                {% for avis in  lesavis %}
+                      <div class="element">
+                          <div class="caption">
+                              <h2> {{avis.nom}}</h2>   <!--recupérer le nom -->
+                              <p>  {{avis.Commentaire}} </p> <!--récupérer le commentaire-->
+                          </div>
+                      </div>
+                {% endfor %}
+           </div>
+            <!-- Flèches de navigation -->
+            <i id="nav-gauche" class="las la-chevron-left"></i>
+            <i id="nav-droite" class="las la-chevron-right"></i>
+            <div class="image">
+              <img src="/static/avisclient.jpg" alt="">
+            </div>
+       </div>
+    </main>
+    <div class="btn-cmntra">
+      <a href="/cmntr" > laissez votre avis!</a> 
+    </div>
+{% endblock %}
+
+
+<!--" j'ai fait la formation de devlopement web html/css/js et  a la fin de cette formation j'ai pu faire un site vitrine pour ma marque je suis trés contente,merci au professeur ahmed benaissa pour son effort."-->

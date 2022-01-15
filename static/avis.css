@@ -1,0 +1,197 @@
+/* avis*/
+main{
+  background-color:rgb(219, 223, 226);
+  width: 90%;
+  margin: auto;
+  height: 370px;
+}
+
+
+.diapo{
+  position: relative;
+  overflow: hidden;
+  padding-top: 3%;
+}
+.diapo h1{
+  padding-bottom: 60px;
+  padding-left: 35%;
+  font-family: cursive;
+  color:rgb(13, 13, 151);
+}
+#nav-droite, #nav-gauche{
+  position:absolute;
+  top: 50%;
+  color:rgb(219, 108, 68);
+  font-size: 5em;
+}
+
+
+#nav-droite{
+  right:40px;
+}
+#nav-gauche{
+  left: 40px;
+}
+
+.elements{ 
+  display: flex;
+  transition: 1s linear;
+}
+
+.element{
+  flex: 1 0 100%; /* max 1  min 0  a 100% */
+  position: relative;
+}
+
+.caption{
+  width: 60%;
+  background-color: white;
+  text-align: center;
+  margin-left: 20%;
+  position: relative;
+  border-radius: 10%;
+  border: 2px solid rgb(24, 23, 23);
+
+}
+
+.caption p{
+  text-align: center;
+  font-family:   monospace;
+  font-size: 1.5em;
+
+}
+
+.caption h2{ 
+  color: chocolate;
+  font-size: 2em;
+  font-weight: 700;
+  padding-top: 10px;
+  text-decoration: underline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image img{
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 15px;
+
+}
+
+.btn-cmntra{
+  justify-content: center;
+  position: relative;
+  left: 40%;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-top: 20px;
+  border: 2px solid rgb(24, 23, 23);
+  border-radius: 20%;
+  background-color:rgb(219, 223, 226);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 30px;
+  transition: ease-out 0.3s;
+}
+.btn-cmntra:hover{
+  box-shadow: inset 200px 0 0 0 chocolate;
+}
+
+.btn-cmntra a{
+  text-decoration: none;
+  font-size: 2em;
+  color: rgb(13, 13, 151);
+}
+
+/* end avis*/
+/*formulaire de commentaire*/
+.btn-cmntr{
+width: 100px;
+height: 40px;
+margin-left:35%;
+margin-bottom: 20px;
+margin-top: 5px;
+background-color:rgb(250, 4, 37);
+color: white;
+border-radius: 5px;
+box-shadow: inset 0 0 0 0 rgb(50, 233, 111);
+transition: ease-in-out ;
+outline: none;
+padding: 10px;
+
+}
+.btn-cmntr:hover{
+  box-shadow: inset 100px 0 0 0 rgb(50, 233, 111);
+}
+
+
+.acontainer{
+  
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  padding-left: 30px;
+  background-image: url('avis-conso.jpg');
+  background-size: 100%;
+  margin-bottom:5% ;
+ 
+  
+}
+.acontainer h1{
+  text-align: center;
+  align-items: center;
+  padding-top: 15px;
+  font-size: 3.5em;
+  color: white;
+}
+
+
+.cmntr-form{
+ background-color:white;
+ border: 3px solid black;
+ padding-left: 50px;
+ padding-top: 10px;
+ width: 50%;
+ margin-top: 30px;
+ margin-left: 43%;
+ margin-bottom: 10%;
+ border-radius: 20%;
+
+ 
+}
+
+#nom{
+   width: 180px;
+   height: 30px;
+   margin-top: 8px;
+   border: 2px solid rgb(66, 66, 117);
+   background-color: rgb(225, 235, 245);
+   border-radius: 5%;
+   margin-left: 20px;
+
+}
+#cmntr{
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 10px;
+  border: 2px solid rgb(66, 66, 117);
+  background-color:rgb(225, 235, 245);
+  border-radius: 5%;
+}
+.input-frma {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+ }
+.acontainer .input-frma:first-child{
+  margin-left: 130px;
+
+}
+#icon{
+  font-size: 2.5em;
+  margin-left: 25px;
+  color:midnightblue;
+}
+
+/*fin de formulaire*/

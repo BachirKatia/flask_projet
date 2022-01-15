@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+.containerK{
+      font-family: 'Poppins',sans-serif;
+     
+      background-color: hsla(39, 100%, 93%, 0.8) ;
+      
+      border:rgb(83, 56, 44) solid 2px;
+   
+     position: relative;  
+      background-position:center;
+     background-size:cover;
+     font-family:sans-serif;
+     padding-top: 3%;
+     margin:0 ;
+     margin:  0 4.9%;
+   }
+
+      .descriptionK{
+     
+        
+        
+         padding: 5px 5px;
+         margin:  auto 100px ;
+      
+       
+      }
+      .photoK{
+         position: absolute;
+         top: 25%;
+         right:120px ;
+         
+      
+      }
+
+    .descK{
+       margin: 20px 20px;
+       padding: auto;
+       font-size:16px;
+      
+    }
+
+ .titre span{
+    margin-top: 20px;
+    
+    text-align: center;
+    color: rgb(83, 56, 44);
+    border-bottom: rgb(83, 56, 44) solid;
+ }
+   
+ .btn-inscription{
+  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   left: 80%;
+   width: 150px;
+   height: 49px;
+   outline: none;
+   border: none;
+   border-radius: 48px;
+   background-color: #20dbc9;
+   
+   text-transform: uppercase;
+   font-weight: 600;
+   margin: 10px 0;
+   transition: all 0.5s;
+   cursor: pointer;
+}
+.btn-inscription a{
+   color: white;
+   text-decoration: none;
+}
+
+
+.btn-inscription:hover{
+   background-color: #00bfa6;   
+}
+
+ pre{
+    font-size: 15px;
+ }
+
+
+
